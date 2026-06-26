@@ -1,0 +1,94 @@
+# water-engineering — 水利工程领域专用 Claude Code Skill
+
+[![Skill](https://img.shields.io/badge/Claude_Code-Skill-8A2BE2)](https://code.claude.com)
+[![Size](https://img.shields.io/badge/Size-2321_lines_/_88KB-blue)](skill-public.md)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+一套完整的**水利水电工程领域 AI 辅助设计技能**，为中国水利工程师打造，覆盖水文计算、水工设计、中国标准规范、施工组织、工程经济等全专业领域。
+
+---
+
+## 核心能力
+
+| 模块 | 内容 |
+|------|------|
+| **标准规范** | 国标 12 部 + 水利行标 50+ 部（含 2024-2026 最新发布） |
+| **水文计算** | P-III 频率曲线、设计洪水、暴雨推求、马斯京根法、水库兴利调节、PMF |
+| **水力学** | 明渠流、水面线计算、水跃、堰流（WES/宽顶堰）、消能、渗流 |
+| **水工建筑物** | 重力坝、土石坝、水闸、溢洪道、水工隧洞 |
+| **水工结构** | 水工钢筋混凝土（SL 191/DL/T 5057）、水工钢结构、挡土墙 |
+| **水电站** | 引水系统、水锤调保、水轮机选型、厂房布置 |
+| **灌溉排水** | 灌溉原理、灌水方法、渠道设计、排水系统 |
+| **河流动力学** | 泥沙运动、河床演变、河道整治 |
+| **地下水** | 传递函数噪声模型、含水层参数率定（整合 pastas 技能） |
+| **计算软件** | 远盛水工、理正岩土、理正结构工具箱、AutoBank 详细操作指南 |
+| **报告模板** | 可研/初设/防洪评价/水文专题/水资源论证/大坝安全评价/山洪沟治理标准目录 |
+| **批复文书** | 水利部 22 种水行政许可文书模板 |
+| **实战项目库** | 40+ 个福建水利工程项目（2023-2026）经验数据 |
+
+---
+
+## 知识来源
+
+| 来源 | 数量 |
+|------|:--:|
+| **大学经典教材** | 17 部 |
+| **国家/行业标准** | 60+ 部 |
+| **本地实战项目** | 40+ 个 |
+| **外部 Skill 市场整合** | 7 个（SkillsBot + GeoscienceSkills） |
+| **设计计算软件** | 4 款 |
+
+## 安装使用
+
+### 方法一：直接安装
+
+```bash
+# 克隆到 Claude Code skills 目录
+git clone https://github.com/WhOleit-hub/water-engineering-skill.git ~/.claude/skills/water-engineering
+
+# 在 Claude Code 中调用
+/water-engineering
+```
+
+### 方法二：npx skills（如已配置）
+
+```bash
+npx skills add WhOleit-hub/water-engineering-skill
+```
+
+---
+
+## 适用场景
+
+- 📐 **水利工程设计** — 可研/初设报告编写，提供标准章节模板
+- 🌊 **水文分析与计算** — P-III 频率分析、设计洪水推求
+- 🏗️ **水工结构计算** — 挡土墙、水闸、重力坝、土石坝
+- 📝 **行政许可申请** — 防洪评价、水资源论证报告编制
+- 🖥️ **软件操作指导** — 远盛水工、理正岩土等国产水利软件
+
+---
+
+## 文件结构
+
+```
+water-engineering/
+├── skill.md      # 主技能文件（2248行 / 88KB）
+└── README.md     # 本文件
+```
+
+---
+
+## 贡献
+
+欢迎水利同行贡献：
+1. 补充新发布的国标/行标
+2. 添加更多工程案例
+3. 更新教材知识
+
+Fork → Commit → Pull Request
+
+---
+
+## 许可
+
+MIT License
